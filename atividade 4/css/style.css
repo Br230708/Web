@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-image: url(../imagens/cinema.png);
+    background-repeat: repeat center;
+    background-size: 200px;
+}
+
+
+footer{ 
+       position:fixed;
+       bottom: 0;
+       left: 0;
+       width:100%;
+       background-color: rgb(243,198,77);
+       color:rgb(0,0,0);
+       text-align: center;
+       padding: 10px 0;
+       box-shadow: 0 -2px 5px rgba(243,198,77, 0.842);
+
+}
+
+header{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    background-color: rgb(94,198,245);
+    color:aliceblue;
+    grid-template-columns:auto auto auto ;
+    height: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 5px;
+}  
+
+.titulo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.emoji{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.texto{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+
+
+
