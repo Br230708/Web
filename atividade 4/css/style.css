@@ -38,25 +38,17 @@ header{
     justify-content: space-between;
     justify-items: center;
     margin: 5px;
-}  
+} 
 
-.titulo{
-    display: grid;
+img {
+    border-radius: 15px;
+    display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
-.sobre{
-    display: grid;
-    align-items: center;
-    justify-content: center;
-}
 
-.emoji{
-    display:grid;
-    align-items: center;
-    justify-content: center;
-}
 
 .imagem{
     display: grid;
@@ -77,6 +69,17 @@ header{
 
 }
 
+.card1{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    gap: 20px;
+}
+
+.card2{
+    display: grid;
+    grid-template-columns: 10fr 2fr;
+    gap: 20px;
+}
 
 
 
